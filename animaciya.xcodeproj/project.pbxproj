@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0825F1E9256FEF240011C616 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825F1E8256FEF240011C616 /* SignUpViewController.swift */; };
 		083D9E07256F966F00B0C133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083D9E06256F966F00B0C133 /* AppDelegate.swift */; };
 		083D9E09256F966F00B0C133 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083D9E08256F966F00B0C133 /* SceneDelegate.swift */; };
 		083D9E0B256F966F00B0C133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083D9E0A256F966F00B0C133 /* ViewController.swift */; };
 		083D9E0E256F966F00B0C133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 083D9E0C256F966F00B0C133 /* Main.storyboard */; };
 		083D9E10256F967B00B0C133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083D9E0F256F967B00B0C133 /* Assets.xcassets */; };
 		083D9E13256F967B00B0C133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 083D9E11256F967B00B0C133 /* LaunchScreen.storyboard */; };
+		083D9E1C256FA18300B0C133 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083D9E1B256FA18300B0C133 /* SignInViewController.swift */; };
+		083D9E1F256FB36B00B0C133 /* CandyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083D9E1E256FB36B00B0C133 /* CandyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0825F1E8256FEF240011C616 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		083D9E03256F966F00B0C133 /* animaciya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animaciya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		083D9E06256F966F00B0C133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		083D9E08256F966F00B0C133 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		083D9E0F256F967B00B0C133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		083D9E12256F967B00B0C133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		083D9E14256F967B00B0C133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		083D9E1B256FA18300B0C133 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		083D9E1E256FB36B00B0C133 /* CandyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				083D9E08256F966F00B0C133 /* SceneDelegate.swift */,
 				083D9E0A256F966F00B0C133 /* ViewController.swift */,
 				083D9E0C256F966F00B0C133 /* Main.storyboard */,
+				0825F1E8256FEF240011C616 /* SignUpViewController.swift */,
+				083D9E1E256FB36B00B0C133 /* CandyViewController.swift */,
+				083D9E1B256FA18300B0C133 /* SignInViewController.swift */,
 				083D9E0F256F967B00B0C133 /* Assets.xcassets */,
 				083D9E11256F967B00B0C133 /* LaunchScreen.storyboard */,
 				083D9E14256F967B00B0C133 /* Info.plist */,
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0825F1E9256FEF240011C616 /* SignUpViewController.swift in Sources */,
+				083D9E1F256FB36B00B0C133 /* CandyViewController.swift in Sources */,
+				083D9E1C256FA18300B0C133 /* SignInViewController.swift in Sources */,
 				083D9E0B256F966F00B0C133 /* ViewController.swift in Sources */,
 				083D9E07256F966F00B0C133 /* AppDelegate.swift in Sources */,
 				083D9E09256F966F00B0C133 /* SceneDelegate.swift in Sources */,
